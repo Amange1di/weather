@@ -1,0 +1,39 @@
+.wrap {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.549);
+  width: 40%;
+  height: 100vh;
+  right: 0;
+  top: 0;
+  z-index: 10;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start !important;
+  padding-left: 50px;
+
+  * {
+    color: #fff !important;
+  }
+}
+.dannye{
+  line-height: 30px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.dannye b{
+  margin-left: 180px;
+}
+
+.ul li{
+  cursor: pointer;
+  list-style: none;
+  margin-bottom: 10px;
+  
+} 
+.ul li:hover{
+  transform: scale(1.2);
+    color: red  !important;
+  }

@@ -1,0 +1,32 @@
+.weather__app {
+  position: relative;
+  &>div {
+    display: flex;
+    align-items: flex-end;
+    padding-bottom: 120px;
+  }
+}
+
+.weather_text {
+  color: #EbEcEb;
+  font-size: 46px;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+
+  h1 {
+    font-weight: 500;
+  }
+
+  p {
+    font-size: 18px;
+  }
+}
+
+.city_name {
+  h5 {
+    font-size: 36px;
+    font-weight: 500;
+  }
+}
+
